@@ -22,13 +22,13 @@
 
 ## Products
 
-* [🔄 Exchange](products/bitexblock-exchange/README.md)
-  * [Token Swaps](products/bitexblock-exchange/trade.md)
-  * [How to Trade](products/bitexblock-exchange/trade-guide.md)
-  * [Liquidity Pools](products/bitexblock-exchange/bitexblock-pools.md)
-  * [How to Add/Remove Liquidity](products/bitexblock-exchange/liquidity-guide.md)
-  * [📝Limit Orders](products/bitexblock-exchange/limit-orders/README.md)
-    * [Limit Orders FAQ](products/bitexblock-exchange/limit-orders/limit-orders-faq.md)
+* [🔄 Exchange](products/exchange/README.md)
+  * [Token Swaps](products/exchange/token-swaps.md)
+  * [How to Trade](products/exchange/how-to-trade.md)
+  * [Liquidity Pools](products/exchange/liquidity-pools.md)
+  * [How to Add/Remove Liquidity](products/exchange/how-to-add-remove-liquidity.md)
+  * [📝Limit Orders](products/exchange/limit-orders/README.md)
+    * [Limit Orders FAQ](products/exchange/limit-orders/limit-orders-faq.md)
 * [🚜 Yield Farming](products/yield-farming/README.md)
   * [How to Use Farms](products/yield-farming/how-to-use-farms.md)
   * [How to Use Farms with BscScan](products/yield-farming/how-to-use-farms-with-bscscan.md)
@@ -52,7 +52,7 @@
   * [How to Participate in an IFO with BscScan](products/ifo-initial-farm-offering/how-to-participate-in-an-ifo-with-bscscan.md)
   * [Contract Details](products/ifo-initial-farm-offering/contract-details.md)
 * [📈 Analytics (Info)](products/info/README.md)
-  * [Analytics](products/info/bitexblock-analytics.md)
+  * [Analytics](products/info/analytics.md)
 * [🗳 Voting](products/voting/README.md)
   * [How to Vote](products/voting/voting-guide.md)
   * [How to Vote with SafePal Wallet](products/voting/how-to-vote-with-safepal-wallet.md)
@@ -73,7 +73,7 @@
     * [Factory v2](code/smart-contracts/bitexblock-exchange/factory-v2.md)
     * [Router v2](code/smart-contracts/bitexblock-exchange/router-v2.md)
   * [Main Staking/Syrup Pool/MasterChef Contract](code/smart-contracts/main-staking-masterchef-contract.md)
-  * [Auto BIT Syrup Pool (BitVault)](code/smart-contracts/bitvault.md)
+  * [Auto BIT Syrup Pool (BitVault)](code/smart-contracts/auto-bit-syrup-pool-bitvault.md)
   * [Prediction V2](code/smart-contracts/prediction-v2.md)
   * [Lottery v2](code/smart-contracts/lottery-v2.md)
 

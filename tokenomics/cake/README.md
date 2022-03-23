@@ -1,36 +1,35 @@
-# CAKE
+# BIT
 
-![](<../../.gitbook/assets/docs-masthead-17- (1).png>)
 
-* **Ticker:** CAKE
-* **Contract Address:** [https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82)
+* **Ticker:** BIT
+* **Contract Address:** [https://bscscan.com/token/0xd96bBEb6f32fE6C0BB11D6D33f7a5D1e6f7961BA](https://bscscan.com/token/0xd96bBEb6f32fE6C0BB11D6D33f7a5D1e6f7961BA)
 * **Chain:** BNB Smart Chain (BEP20)
 
 ## The basics
 
-CAKE is the delicious token that powers the PancakeSwap ecosystem.
+BIT is the delicious token that powers the Bitexblock ecosystem.
 
-Earn CAKE from Farms and Syrup Pools, win it in the lottery, or [buy it on the exchange](../../products/pancakeswap-exchange/), then explore its use cases:
+Earn BIT from Farms and Syrup Pools, win it in the lottery, or [buy it on the exchange](../../products/bitexblock-exchange/), then explore its use cases:
 
 * Stake it in [Syrup Pools](../../products/syrup-pool/) to earn free tokens
-* Use it in [Yield Farms](https://docs.pancakeswap.finance/products/yield-farming) to earn more CAKE
-* Buy Lottery tickets in the [PancakeSwap Lottery](../../products/lottery/)
+* Use it in [Yield Farms](https://docs.bitexblock.finance/products/yield-farming) to earn more BIT
+* Buy Lottery tickets in the [ Bitexblock Lottery](../../products/lottery/)
 * Participate in [IFO Token Sales](../../products/ifo-initial-farm-offering/)
-* Create your [Pancake Profile](../../products/nft-profile-system/) and mint NFTs
-* [Vote on proposals](../../products/voting/) relating to the PancakeSwap ecosystem
+* Create your [Bitexblock Profile](../../products/nft-profile-system/) and mint NFTs
+* [Vote on proposals](../../products/voting/) relating to the Bitexblock ecosystem
 
-But that's not all -- there's much more on the horizon for CAKE!
+But that's not all -- there's much more on the horizon for BIT!
 
 ## In detail
 
-Check below to discover the nuts and bolts of how CAKE works.
+Check below to discover the nuts and bolts of how BIT works.
 
-{% content-ref url="cake-tokenomics.md" %}
-[cake-tokenomics.md](cake-tokenomics.md)
+{% content-ref url="bit-tokenomics.md" %}
+[bit-tokenomics.md](bit-tokenomics.md)
 {% endcontent-ref %}
 
-{% content-ref url="controlling-cake-supply.md" %}
-[controlling-cake-supply.md](controlling-cake-supply.md)
+{% content-ref url="controlling-bit-supply.md" %}
+[controlling-bit-supply.md](controlling-bit-supply.md)
 {% endcontent-ref %}
 
 ### \*\*\*\*

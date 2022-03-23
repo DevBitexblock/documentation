@@ -1,10 +1,9 @@
 # 🚜 Yield Farming
 
-![](<../../.gitbook/assets/docs-masthead-1- (2).png>)
 
-Yield Farms allow users to earn CAKE while supporting PancakeSwap by staking LP Tokens.
+Yield Farms allow users to earn BIT while supporting Bitexblock by staking LP Tokens.
 
-Check out our [How to Use Farms guide](https://docs.pancakeswap.finance/products/yield-farming/how-to-use-farms) to get started with farming.
+Check out our [How to Use Farms guide](https://docs.bitexblock.com/products/yield-farming/how-to-use-farms) to get started with farming.
 
 Learn [how to find Farm smart contracts](./)
 
@@ -21,15 +20,14 @@ Yield Farm APR calculations include both:
 * **LP rewards APR** earned through providing liquidity and;
 * **Farm base rewards APR** earned staking LP Tokens in the Farm.
 
-Why? Because when you stake your LP tokens in a farm to earn CAKE, you're still providing liquidity to the liquidity pool, so you earn LP rewards as well!
+Why? Because when you stake your LP tokens in a farm to earn BIT, you're still providing liquidity to the liquidity pool, so you earn LP rewards as well!
 
-![](<../../.gitbook/assets/Frame 1 (3).png>)
 
 So how do we calculate those figures?
 
 ### Calculating Farm Base Reward APR
 
-The **Farm Base APR** is calculated according to the farm multiplier and the total amount of liquidity in the farm -- this is the amount of CAKE distributed to the farm.
+The **Farm Base APR** is calculated according to the farm multiplier and the total amount of liquidity in the farm -- this is the amount of BIT distributed to the farm.
 
 ### Calculating LP Reward APR
 

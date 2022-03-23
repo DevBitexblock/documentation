@@ -1,9 +1,9 @@
-# Auto CAKE Syrup Pool \(CakeVault\)
+# Auto BIT Syrup Pool \(BitVault\)
 
 ## Contract info
 
-**Contract name:** CakeVault  
-**Contract address:** 0xa80240Eb5d7E05d3F250cF000eEc0891d00b51CC
+**Contract name:** BitVault  
+**Contract address:** 0x58798c641022443d56F7734b92fF9baA5Fc08D07
 
-View [Auto CAKE Pool Smart Contract on BscScan](https://bscscan.com/address/0xa80240eb5d7e05d3f250cf000eec0891d00b51cc#code)
+View [Auto BIT Pool Smart Contract on BscScan](https://bscscan.com/address/0x58798c641022443d56F7734b92fF9baA5Fc08D07#code)
 

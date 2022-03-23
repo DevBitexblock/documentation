@@ -2,11 +2,11 @@
 
 ## Contract info
 
-**Contract name:** PancakePredictionV2\
+**Contract name:** BitexblockPredictionV2\
 **Contract address:** [0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA](https://bscscan.com/address/0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA)
 
-View the [PancakeSwap: Prediction V2 contract on BscScan](https://bscscan.com/address/0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA#code).
+View the [Bitexblock: Prediction V2 contract on BscScan](https://bscscan.com/address/0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA#code).
 
 ## Audits
 
-[Peckshield's Prediction V2 security audit](https://github.com/peckshield/publications/blob/master/audit\_reports/PeckShield-Audit-Report-PancakeSwap-PredictionV2-v1.0.pdf)
+[Peckshield's Prediction V2 security audit](https://github.com/peckshield/publications/blob/master/audit\_reports/PeckShield-Audit-Report-Bitexblock-PredictionV2-v1.0.pdf)

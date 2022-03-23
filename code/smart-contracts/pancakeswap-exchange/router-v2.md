@@ -1,18 +1,18 @@
 # Router v2
 
 {% hint style="warning" %}
-PancakeSwap is based on Uniswap v2. Read the [Uniswap v2 documentation](https://docs.uniswap.org/protocol/V2/introduction).\
+Swap by Bitexblock is based on Uniswap v2. Read the [Uniswap v2 documentation](https://docs.uniswap.org/protocol/V2/introduction).\
 For more in-depth information on the core contract logic, read the [Uniswap v2 Core whitepaper](https://github.com/Uniswap/docs/blob/main/static/whitepaper.pdf).
 {% endhint %}
 
 ## Contract info
 
-**Contract name:** PancakeRouter\
-**Contract address:** 0x10ED43C718714eb63d5aA57B78B54704E256024E
+**Contract name:** BitexblockRouter\
+**Contract address:** 0xc014dCa6395A943639653f7C23B674c38EDFfC69
 
-View [PancakeRouter.sol on GitHub](https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contracts/PancakeRouter.sol).
+View [BitexblockRouter.sol on GitHub](https://github.com/bitexblock/bitexblock-swap-periphery/blob/master/contracts/BitexblockRouter.sol).
 
-View the [PancakeSwap: Router v2 contract on BscScan](https://bscscan.com/address/0x10ed43c718714eb63d5aa57b78b54704e256024e).
+View the [BitexblockSwap: Router v2 contract on BscScan](https://bscscan.com/address/0xc014dCa6395A943639653f7C23B674c38EDFfC69).
 
 ## Read functions
 
@@ -26,7 +26,7 @@ Returns the canonical address for [Binance: WBNB token](https://bscscan.com/addr
 
 `function factory() external pure returns (address);`
 
-Returns the canonical address for [PancakeFactory](https://bscscan.com/address/0xca143ce32fe78f1f7019d7d551a6402fc5350c73).
+Returns the canonical address for [BitexblockFactory](https://bscscan.com/address/0x01D163d0cF1f5cFa018faa64c18A16D4998189B1).
 
 {% hint style="warning" %}
 For explanations of the following, view the [Uniswap v2 Internal Functions documentation](https://uniswap.org/docs/v2/smart-contracts/library/#internal-functions).
@@ -456,13 +456,13 @@ Receive an exact amount of output tokens for as few input tokens as possible.
 ## Interface
 
 ```
-import '@uniswap/v2-core/contracts/interfaces/IPancakeRouter.sol';
+import '@uniswap/v2-core/contracts/interfaces/IBitexblockRouter.sol';
 ```
 
 ```
 pragma solidity >=0.6.2;
 
-interface IPancakeRouter01 {
+interface IBitexblockRouter01 {
     function factory() external pure returns (address);
     function WETH() external pure returns (address);
 
@@ -556,11 +556,11 @@ interface IPancakeRouter01 {
     function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);
 }
 
-// File: contracts\interfaces\IPancakeRouter02.sol
+// File: contracts\interfaces\IBitexblockRouter02.sol
 
 pragma solidity >=0.6.2;
 
-interface IPancakeRouter02 is IPancakeRouter01 {
+interface IBitexblockRouter02 is IBitexblockRouter01 {
     function removeLiquidityETHSupportingFeeOnTransferTokens(
         address token,
         uint liquidity,

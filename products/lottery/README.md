@@ -1,14 +1,13 @@
 # 🎟 Lottery v2
 
-![](<../../.gitbook/assets/docs-masthead-3- (2).png>)
 
-Playing the PancakeSwap Lottery gives you a chance to win huge CAKE prizes! It's easy, fair, and you can enter as often as you like as long as you have the CAKE to buy a ticket.
+Playing the Bitexblock Lottery gives you a chance to win huge BIT prizes! It's easy, fair, and you can enter as often as you like as long as you have the BIT to buy a ticket.
 
 [View smart contract](https://bscscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c)
 
 ## **Specifics:**
 
-* Lottery ticket cost for 1 ticket: \~$5 USD in CAKE.
+* Lottery ticket cost for 1 ticket: \~$5 USD in BIT.
 * Individual user Lottery entry limit: No overall limit, but only 100 tickets can be bought at a time.
 * Paying for one ticket will give users a random 6-digit combination with each digit being between 0-9, for e.g. “1-9-3-2-0-4”. Match numbers from the left to win prizes—the more numbers that match, the bigger the prize pool you'll share in.
 * Lottery uses Chainlink's implementation of VRF for true, secure randomness.
@@ -19,7 +18,6 @@ Lottery ticket prices are set at the start of the new lottery round, and target 
 
 Buying multiple Lottery tickets at once gives a bulk discount on your purchase. You can buy as many as 100 tickets in one purchase, with the discount starting small at 2 tickets, and scaling up to 4.95% at 100 tickets.
 
-![](<../../.gitbook/assets/image (146).png>)
 
 ## **How to win**
 
@@ -34,17 +32,14 @@ Match numbers, **from the left side of your ticket**, to the winning numbers dra
 
 Drawn numbers
 
-![Drawn Numbers](<../../.gitbook/assets/image (148).png>)
 
 Your ticket's numbers
 
-![Your Ticket A](<../../.gitbook/assets/image (95) (1) (1).png>)
 
 In the example above, Ticket A, five of the ticket's numbers match the same drawn numbers, in the exact same order: all except the fourth one.
 
 However, since the fourth digit does **not** match the drawn number, only the first three digits count as matching in order. This would win a "Match first 3" prize.
 
-![Your Ticket B](<../../.gitbook/assets/image (149).png>)
 
 Example Ticket B. Here's an unlucky one. Even though the last five digits match, the first digit doesn't match, so this ticket doesn't win anything at all.
 
@@ -56,8 +51,8 @@ You will only share in prizes from the highest prize bracket you are eligible fo
 
 ‌After a round is drawn, and tickets with matching numbers are determined, the prizes are awarded. The amount won by each ticket will depend on how many other tickets won in the same prize bracket.
 
-‌For example, if you have the only ticket that matched three numbers in order, and the predetermined share of the prize pool for your bracket was 2000 CAKE, you'll receive the full 2000 CAKE.
+‌For example, if you have the only ticket that matched three numbers in order, and the predetermined share of the prize pool for your bracket was 2000 BIT, you'll receive the full 2000 BIT.
 
-‌If, however, you and three other people match three numbers in order, the 2000 CAKE would be split between the four winning tickets, meaning you would receive 500 CAKE.
+‌If, however, you and three other people match three numbers in order, the 2000 BIT would be split between the four winning tickets, meaning you would receive 500 BIT.
 
 See the [Lottery FAQ for a breakdown of prizes](lottery-faq.md#how-are-prizes-broken-down-between-brackets) across each bracket.

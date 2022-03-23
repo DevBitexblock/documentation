@@ -1,8 +1,7 @@
 # Create a Wallet
 
-![](../.gitbook/assets/docs-masthead-9-.png)
 
-To get started on PancakeSwap, the first thing you'll need is to set up a wallet that supports BNB Smart Chain (BSC). Wallets are available both on desktop computers and on smartphone devices. You'll need to choose the wallet that fits your needs best.
+To get started on Bitexblock, the first thing you'll need is to set up a wallet that supports BNB Smart Chain (BSC). Wallets are available both on desktop computers and on smartphone devices. You'll need to choose the wallet that fits your needs best.
 
 {% hint style="danger" %}
 **When you're setting up a wallet, be sure to:**
@@ -33,7 +32,7 @@ Smartphone/Mobile wallets allow you to access your crypto almost anywhere. Walle
 
 ### Which mobile wallet should I choose?
 
-This comparison table gives an overview of the most popular mobile wallets used with PancakeSwap.
+This comparison table gives an overview of the most popular mobile wallets used with Bitexblock.
 
 |                                                          | Trust Wallet                  | MetaMask | Token Pocket | SafePal |
 | -------------------------------------------------------- | ----------------------------- | -------- | ------------ | ------- |
@@ -50,7 +49,6 @@ You can find more in-depth information about each wallet below, as well as downl
 
 {% tabs %}
 {% tab title="Trust Wallet" %}
-![](<../.gitbook/assets/image (36).png>)
 
 Trust Wallet is a popular wallet for smart devices. It supports DApps, NFT collectibles (with Opensea.io support), and in-wallet staking.
 
@@ -74,7 +72,6 @@ Trust Wallet is a popular wallet for smart devices. It supports DApps, NFT colle
 {% endtab %}
 
 {% tab title="MetaMask" %}
-![](<../.gitbook/assets/image (33) (3) (4) (5) (1).png>)
 
 MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) and BEP2 & BEP20 (Binance Chain and BNB Smart Chain networks).
 
@@ -92,7 +89,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 **Cons:**
 
 * Longer setup time than other options
-* Additional steps needed to use with BNB Smart Chain and PancakeSwap
+* Additional steps needed to use with BNB Smart Chain and Bitexblock
 * Extra information and settings may confuse beginners
 
 [**Download MetaMask**](https://metamask.io/download.html) (Automatically detects device)\
@@ -100,7 +97,6 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 {% endtab %}
 
 {% tab title="Token Pocket" %}
-![](<../.gitbook/assets/image (125) (3) (4) (1) (3).png>)
 
 Token Pocket is a cryptocurrency management app that natively supports many cryptocurrency networks. It also has a desktop application available.
 
@@ -145,7 +141,7 @@ If you do have an existing wallet to import, use the top option instead.
 
 And that’s it, all done!
 
-To connect to BNB Smart Chain and use PancakeSwap, you can follow the TokenPocket section of our Connect Your Wallet to PancakeSwap guide [https://docs.pancakeswap.finance/get-started/connection-guide](https://docs.pancakeswap.finance/get-started/connection-guide).
+To connect to BNB Smart Chain and use Bitexblock, you can follow the TokenPocket section of our Connect Your Wallet to Bitexblock guide [https://docs.bitexblock.com/get-started/connection-guide](https://docs.bitexblock.com/get-started/connection-guide).
 
 #### Getting private key from mobile to import to desktop
 
@@ -168,14 +164,13 @@ Please be extremely careful with how you handle your private keys. Giving your p
 {% hint style="danger" %}
 \*\*NEVER, in any situation, should you ever give someone your private key or recovery phrase ("seed phrase"). This will give someone complete access to your crypto!
 
-The genuine PancakeSwap site and staff will never ask you to input your seed phrase.\*\*
+The genuine Bitexblock site and staff will never ask you to input your seed phrase.\*\*
 {% endhint %}
 
 Now you have your private key ready to import your wallet into the desktop version of Token Pocket.
 {% endtab %}
 
 {% tab title="SafePal" %}
-![](<../.gitbook/assets/image (26) (1).png>)
 
 SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support BEP2 (Binance Chain) and BEP20 (BNB Smart Chain) right away.
 
@@ -208,7 +203,7 @@ Desktop wallets are available on your home computer or laptop computer. Wallets 
 
 ### Which desktop wallet should I choose?
 
-This comparison table gives an overview of the most popular desktop wallets used with PancakeSwap.
+This comparison table gives an overview of the most popular desktop wallets used with Bitexblock.
 
 |                                                          | MetaMask | Binance Wallet | Token Pocket |
 | -------------------------------------------------------- | -------- | -------------- | ------------ |
@@ -224,7 +219,6 @@ You can find more in-depth information about each wallet below, as well as downl
 
 {% tabs %}
 {% tab title="MetaMask" %}
-![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (4).png>)
 
 MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) by default, and BEP2 & BEP20 (Binance Chain and BNB Smart Chain networks) with a little work.
 
@@ -241,7 +235,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 **Cons:**
 
 * Longer setup time than other options
-* Additional steps needed to use with BNB Smart Chain and PancakeSwap
+* Additional steps needed to use with BNB Smart Chain and Bitexblock
 * Extra information and settings may confuse beginners
 
 [**Download MetaMask**](https://metamask.io/download.html) (Automatically detects browser)\
@@ -249,7 +243,6 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 {% endtab %}
 
 {% tab title="Binance Wallet" %}
-![](<../.gitbook/assets/image (39).png>)
 
 Binance Wallet is a browser-plugin wallet that natively supports the Binance Chain (BEP2) BNB Smart Chain (BEP20) networks. Binance Wallet was developed by the Binance cryptocurrency exchange.
 
@@ -259,7 +252,7 @@ Binance Wallet is a browser-plugin wallet that natively supports the Binance Cha
 * Backed by the Binance cryptocurrency exchange
 * Can be directly linked to a Binance or Gmail account
 * A streamlined user experience
-* Supports BNB Smart Chain by default, making using PancakeSwap easy
+* Supports BNB Smart Chain by default, making using Bitexblock easy
 * Supports a large number of languages
 * Hardware wallet compatible
 
@@ -274,7 +267,6 @@ Binance Wallet is a browser-plugin wallet that natively supports the Binance Cha
 {% endtab %}
 
 {% tab title="Token Pocket" %}
-![](<../.gitbook/assets/image (125) (3) (4) (1) (2).png>)
 
 Token Pocket is a standalone application available for both Mac OS and Win64 devices. Token Pocket allows you to manage your cryptocurrency in software independent of your browser.
 
@@ -341,12 +333,12 @@ Please be extremely careful with how you handle your private keys. Giving your p
 
 ![](https://lh5.googleusercontent.com/g\_iZzJZAPhsBQUBgQqTvLO1HfuGnCGZDkRD3DFu4g4GPat901700Qk3aBx8Fx5AzY2PH7JYajGM4-4fXm6icPWB-8R5wQQst-W3NWJ6n0Rh\_bbPKXnXrO4h\_JEgu7wtey11EuCN-)
 
-And that’s it, all done! You can follow our [Connect Your Wallet to PancakeSwap guide](https://docs.pancakeswap.finance/get-started/connection-guide) to connect to BNB Smart Chain and PancakeSwap.
+And that’s it, all done! You can follow our [Connect Your Wallet to Bitexblock guide](https://docs.bitexblock.com/get-started/connection-guide) to connect to BNB Smart Chain and Bitexblock.
 {% endtab %}
 {% endtabs %}
 
 {% hint style="danger" %}
 \*\*NEVER, in any situation, should you ever give someone your private key or recovery phrase ("seed phrase"). This will give someone complete access to your crypto!
 
-The genuine PancakeSwap site and staff will never ask you to input your seed phrase.\*\*
+The genuine Bitexblock site and staff will never ask you to input your seed phrase.\*\*
 {% endhint %}

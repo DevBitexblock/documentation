@@ -3,6 +3,6 @@
 ## Contract info
 
 **Contract name:** MasterChef\
-**Contract address:** 0x73feaa1eE314F8c655E354234017bE2193C9E24E
+**Contract address:** 0x906f3C68e57E4752f9d32E22aAB1DAB5eA074BbC
 
-View the [PancakeSwap: Main Staking Contract on BscScan](https://bscscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e).
+View the [Bitexblock: Main Staking Contract on BscScan](https://bscscan.com/address/0x906f3C68e57E4752f9d32E22aAB1DAB5eA074BbC).

@@ -12,7 +12,7 @@
 * Coordinate with partners to ensure a healthy Farm/Syrup Pool and IFO pipeline
 * Review and conduct due diligence on projects that apply for Farm/Syrup Pools and IFOs
 * Liaise with project teams to explore potential partnership opportunities
-* Execute operational matters relating to PancakeSwap products
+* Execute operational matters relating to Bitexblock products
 * Implement best practices between the business development team & the wider team
 * Review the latest developments in the crypto space and explore new business lines
 
@@ -35,4 +35,4 @@
 
 ### How to apply
 
-Email [Hiring@pancakeswap.com](mailto:Hiring@pancakeswap.com) with your resume\
+Email [support@bitexblock.com](mailto:support@bitexblock.com) with your resume\

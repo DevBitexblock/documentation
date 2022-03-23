@@ -26,4 +26,4 @@
 
 ### How to apply
 
-Email hiring@pancakeswap.com with your resume
+Email support@bitexblock.com with your resume

@@ -1,11 +1,11 @@
 # Table of contents
 
-* [PancakeSwap Intro](README.md)
+* [Bitexblock Intro](README.md)
 * [Get Started](get-started/README.md)
   * [Create a Wallet](get-started/wallet-guide.md)
   * [Get BEP20 Tokens](get-started/bep20-guide.md)
-  * [Using PancakeSwap without Centralized Exchanges](get-started/using-pancakeswap-without-centralized-exchanges.md)
-  * [Connect Your Wallet to PancakeSwap](get-started/connection-guide.md)
+  * [Using Bitexblock without Centralized Exchanges](get-started/using-bitexblock-without-centralized-exchanges.md)
+  * [Connect Your Wallet to Bitexblock](get-started/connection-guide.md)
 * [Click Here for Help](help/README.md)
   * [Troubleshooting Errors](help/troubleshooting.md)
   * [General FAQ](help/faq.md)
@@ -22,19 +22,19 @@
 
 ## Products
 
-* [🔄 Exchange](products/pancakeswap-exchange/README.md)
-  * [Token Swaps](products/pancakeswap-exchange/trade.md)
-  * [How to Trade](products/pancakeswap-exchange/trade-guide.md)
-  * [Liquidity Pools](products/pancakeswap-exchange/pancakeswap-pools.md)
-  * [How to Add/Remove Liquidity](products/pancakeswap-exchange/liquidity-guide.md)
-  * [📝Limit Orders](products/pancakeswap-exchange/limit-orders/README.md)
-    * [Limit Orders FAQ](products/pancakeswap-exchange/limit-orders/limit-orders-faq.md)
+* [🔄 Exchange](products/bitexblock-exchange/README.md)
+  * [Token Swaps](products/bitexblock-exchange/trade.md)
+  * [How to Trade](products/bitexblock-exchange/trade-guide.md)
+  * [Liquidity Pools](products/bitexblock-exchange/bitexblock-pools.md)
+  * [How to Add/Remove Liquidity](products/bitexblock-exchange/liquidity-guide.md)
+  * [📝Limit Orders](products/bitexblock-exchange/limit-orders/README.md)
+    * [Limit Orders FAQ](products/bitexblock-exchange/limit-orders/limit-orders-faq.md)
 * [🚜 Yield Farming](products/yield-farming/README.md)
   * [How to Use Farms](products/yield-farming/how-to-use-farms.md)
   * [How to Use Farms with BscScan](products/yield-farming/how-to-use-farms-with-bscscan.md)
 * [🍯 Syrup Pools](products/syrup-pool/README.md)
   * [How to Stake in Syrup Pools](products/syrup-pool/syrup-pool-guide.md)
-  * [Auto CAKE Syrup Pool](products/syrup-pool/auto-compounding.md)
+  * [Auto BIT Syrup Pool](products/syrup-pool/auto-compounding.md)
   * [Syrup Pool FAQ & Troubleshooting](products/syrup-pool/syrup-pool-faq.md)
 * [🎟 Lottery v2](products/lottery/README.md)
   * [How to Play Lottery v2](products/lottery/lottery-guide.md)
@@ -52,16 +52,16 @@
   * [How to Participate in an IFO with BscScan](products/ifo-initial-farm-offering/how-to-participate-in-an-ifo-with-bscscan.md)
   * [Contract Details](products/ifo-initial-farm-offering/contract-details.md)
 * [📈 Analytics (Info)](products/info/README.md)
-  * [Analytics](products/info/pancakeswap-analytics.md)
+  * [Analytics](products/info/bitexblock-analytics.md)
 * [🗳 Voting](products/voting/README.md)
   * [How to Vote](products/voting/voting-guide.md)
   * [How to Vote with SafePal Wallet](products/voting/how-to-vote-with-safepal-wallet.md)
 
 ## Tokenomics
 
-* [CAKE](tokenomics/cake/README.md)
-  * [CAKE Tokenomics](tokenomics/cake/cake-tokenomics.md)
-  * [Controlling CAKE supply](tokenomics/cake/controlling-cake-supply.md)
+* [BIT](tokenomics/bit/README.md)
+  * [BIT Tokenomics](tokenomics/bit/bit-tokenomics.md)
+  * [Controlling BIT supply](tokenomics/bit/controlling-bit-supply.md)
 
 ## Developers <a href="#code" id="code"></a>
 
@@ -69,11 +69,11 @@
   * [Codebase Overview](code/contributing/codebase-overview.md)
 * [Bug Bounty](code/bug-bounty.md)
 * [Smart Contracts](code/smart-contracts/README.md)
-  * [PancakeSwap Exchange](code/smart-contracts/pancakeswap-exchange/README.md)
-    * [Factory v2](code/smart-contracts/pancakeswap-exchange/factory-v2.md)
-    * [Router v2](code/smart-contracts/pancakeswap-exchange/router-v2.md)
+  * [Bitexblock Exchange](code/smart-contracts/bitexblock-exchange/README.md)
+    * [Factory v2](code/smart-contracts/bitexblock-exchange/factory-v2.md)
+    * [Router v2](code/smart-contracts/bitexblock-exchange/router-v2.md)
   * [Main Staking/Syrup Pool/MasterChef Contract](code/smart-contracts/main-staking-masterchef-contract.md)
-  * [Auto CAKE Syrup Pool (CakeVault)](code/smart-contracts/cakevault.md)
+  * [Auto BIT Syrup Pool (BitVault)](code/smart-contracts/bitvault.md)
   * [Prediction V2](code/smart-contracts/prediction-v2.md)
   * [Lottery v2](code/smart-contracts/lottery-v2.md)
 

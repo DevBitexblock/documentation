@@ -4,7 +4,6 @@ description: Common error messages. Use the sidebar ➡️to jump to the error y
 
 # Troubleshooting Errors
 
-![](<../.gitbook/assets/docs-masthead-16- (1).png>)
 
 Sometimes you may find yourself facing a problem that doesn't have a clear solution. These troubleshooting tips may help you solve problems you run into.
 
@@ -12,9 +11,9 @@ Sometimes you may find yourself facing a problem that doesn't have a clear solut
 
 ### **INSUFFICIENT\_OUTPUT\_AMOUNT**
 
-> The transaction cannot succeed due to error: PancakeRouter: INSUFFICIENT\_OUTPUT\_AMOUNT. This is probably an issue with one of the tokens you are swapping.
+> The transaction cannot succeed due to error: BitexblockRouter: INSUFFICIENT\_OUTPUT\_AMOUNT. This is probably an issue with one of the tokens you are swapping.
 >
-> the transaction cannot succeed due to error: execution reverted: pancakerouter: insufficient\_output\_amount.
+> the transaction cannot succeed due to error: execution reverted: bitexblockrouter: insufficient\_output\_amount.
 
 You're trying to swap tokens, but your slippage tolerance is too low or liquidity is too low.
 
@@ -24,7 +23,7 @@ You're trying to swap tokens, but your slippage tolerance is too low or liquidit
 2. Try trading a smaller amount at one time.
 3. Increase your slippage tolerance:
    1. Tap the settings icon on the liquidity page.
-   2. Increase your slippage tolerance a little and try again. ![](<../.gitbook/assets/image (9) (4) (2) (1) (3).png>)
+   2. Increase your slippage tolerance a little and try again. 
 4. Lastly, try inputting an amount with fewer decimal places.
 {% endtab %}
 
@@ -33,15 +32,15 @@ You're trying to swap tokens, but your slippage tolerance is too low or liquidit
 
 That means there isn't enough of one of the tokens you're trying to swap in the Liquidity Pool: it's probably a small-cap token that few people are trading.
 
-However, there's also the chance that you're trying to trade a scam token which cannot be sold. In this case, PancakeSwap isn't able to block a token or return funds.
+However, there's also the chance that you're trying to trade a scam token which cannot be sold. In this case, Bitexblock isn't able to block a token or return funds.
 {% endtab %}
 {% endtabs %}
 
 ### **INSUFFICIENT\_A\_AMOUNT or INSUFFICIENT\_B\_AMOUNT**
 
-> Fail with error 'PancakeRouter: INSUFFICIENT\_A\_AMOUNT'\
+> Fail with error 'BitexblockRouter: INSUFFICIENT\_A\_AMOUNT'\
 > or\
-> Fail with error 'PancakeRouter: INSUFFICIENT\_B\_AMOUNT'
+> Fail with error 'BitexblockRouter: INSUFFICIENT\_B\_AMOUNT'
 
 You're trying to add/remove liquidity from a liquidity pool (LP), but there isn't enough of one of the two tokens in the pair.
 
@@ -54,7 +53,6 @@ Still doesn't work?
 1. Tap the settings icon on the liquidity page.
 2. Increase your slippage tolerance a little and try again.
 
-![](<../.gitbook/assets/image (9) (4) (2) (1) (4).png>)
 {% endtab %}
 
 {% tab title="Reason" %}
@@ -70,7 +68,7 @@ It might be the case that prices are updating too fast when and your slippage to
 {% tab title="Solution for nerds" %}
 OK, so you're really determined to fix this. We really don't recommend doing this unless you know what you're doing.
 
-There currently isn't a simple way to solve this issue from the PancakeSwap website: you'll need to interact with the contract directly. You can add liquidity directly via the Router contract, while setting amountAMin to a small amount, then withdrawing all liquidity.
+There currently isn't a simple way to solve this issue from the Bitexblock website: you'll need to interact with the contract directly. You can add liquidity directly via the Router contract, while setting amountAMin to a small amount, then withdrawing all liquidity.
 
 #### **Approve the LP contract**
 
@@ -88,7 +86,6 @@ For example, here's the ETH/WBNB pair: [https://bscscan.com/address/0x70d8929d04
 2. In **5. balanceOf**, input your wallet address and hit **Query**.
 3. Keep track of the number that's exported. It shows your balance within the LP in the uint256 format, which you'll need in the next step.
 
-![](<../.gitbook/assets/image (7).png>)
 
 #### Add or Remove Liquidity
 
@@ -102,7 +99,6 @@ Head to the router contract: [https://bscscan.com/address/0x05ff2b0db69458a0750b
 6. Add your wallet address in **to (address)**.
 7. Deadline must be an epoch time greater than the time the tx is executed.
 
-![](<../.gitbook/assets/image (5).png>)
 
 {% hint style="warning" %}
 This can cause very high slippage, and can cause the user to lose some funds if frontrun
@@ -110,31 +106,30 @@ This can cause very high slippage, and can cause the user to lose some funds if 
 {% endtab %}
 {% endtabs %}
 
-### PancakeRouter: EXPIRED
+### BitexblockRouter: EXPIRED
 
-> The transaction cannot succeed due to error: PancakeRouter: EXPIRED. This is probably an issue with one of the tokens you are swapping.
+> The transaction cannot succeed due to error: BitexblockRouter: EXPIRED. This is probably an issue with one of the tokens you are swapping.
 
 Try again, but confirm (sign and broadcast) the transaction as soon as you generate it.
 
 This happened because you started making a transaction, but you didn't sign and broadcast it until it was past the deadline. That means you didn't hit "Confirm" quickly enough.
 
-### Pancake: K
+### Bitexblock: K
 
-> The transaction cannot succeed due to error: Pancake: K. This is probably an issue with one of the tokens you are swapping.
+> The transaction cannot succeed due to error: Bitexblock: K. This is probably an issue with one of the tokens you are swapping.
 
 Try modifying the amount on “To” field. Therefore putting "(estimated)" symbol on “From”. Then initiate the swap immediately.
 
-![](<../.gitbook/assets/pancake-k-solution (2).png>)
 
 This usually happen when you are trying to swap a token with its own fee.
 
-### Pancake: TRANSFER\_FAILED
+### Bitexblock: TRANSFER\_FAILED
 
-> The transaction cannot succeed due to error: execution reverted: Pancake: TRANSFER\_FAILED.
+> The transaction cannot succeed due to error: execution reverted: Bitexblock: TRANSFER\_FAILED.
 
 Make sure you have 30% more tokens in your wallet than you intend to trade, or try to trade a lower amount. If you want to sell the maximum possible, try 70% or 69% instead of 100%.\
 Caused by the design of Restorative Rebase tokens like tDoge or tBTC.\
-[Understand how restorative rebase tokens work](https://btcst.medium.com/stp-8-restorative-rebase-b4fbbdfd96c).
+[Understand how restorative rebase tokens work]().
 
 Another possible cause of this issue is the malicious token issuer just suspended the trading for their token. Or they made selling action only possible for selected wallet addresses. Please always do your own research to avoid any potential fraud. If the token you are trying to swap but failed with this error code is coming from an airdrop, that is most likely a scam. Please do not perform any token approval or follow any links, your fund may be at risk if you try to do so.
 
@@ -162,7 +157,7 @@ Please contact the project team of the token you're trying to swap. \*\*\*\* Thi
 {% endtab %}
 
 {% tab title="Reason" %}
-**This issue (while swapping) is caused by tokens which have hard-coded the V1 PancakeSwap router into their contract.**
+**This issue (while swapping) is caused by tokens which have hard-coded the V1 Bitexblock router into their contract.**
 
 While this practice is ill-advised at best, the reason for these projects having done this appears to be due to their tokenomics, in which each purchase sends a % of the token to LPs.
 
@@ -170,7 +165,7 @@ The projects affected will likely not work with the V2 router: they will most li
 
 We recommend that any projects which created such tokens should also make efforts to prevent their users from adding them to V2 LP.
 
-The up-to-date router address is [https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E)
+The up-to-date router address is [https://bscscan.com/address/0xc014dCa6395A943639653f7C23B674c38EDFfC69](https://bscscan.com/address/0xc014dCa6395A943639653f7C23B674c38EDFfC69)
 {% endtab %}
 {% endtabs %}
 
@@ -207,7 +202,7 @@ When trying to swap tokens, the transaction fails and this error message is disp
 
 {% tab title="Reason" %}
 This error happens when trading tokens with insufficient allowance, or when a wallet has insufficient funds.\
-If you're trading tokens with Restorative Rebase like tau assets tDoge or tBTC, make sure you understand how they work first with this [guide to Rebase tokens](https://btcst.medium.com/stp-8-restorative-rebase-b4fbbdfd96c).
+If you're trading tokens with Restorative Rebase like tau assets tDoge or tBTC, make sure you understand how they work first with this [guide to Rebase tokens]().
 {% endtab %}
 {% endtabs %}
 
@@ -217,28 +212,28 @@ If you're trading tokens with Restorative Rebase like tau assets tDoge or tBTC, 
 
 > Fail with error 'BEP20: burn amount exceeds balance'
 
-You don't have enough SYRUP in your wallet to unstake from the CAKE-CAKE pool.
+You don't have enough SYRUP in your wallet to unstake from the BIT-BIT pool.
 
-**Get at least as much SYRUP as the amount of CAKE that you’re trying to unstake.**
+**Get at least as much SYRUP as the amount of BIT that you’re trying to unstake.**
 
-1. Buy SYRUP on the exchange. If you want to unstake 100 CAKE, you need at least 100 SYRUP.
+1. Buy SYRUP on the exchange. If you want to unstake 100 BIT, you need at least 100 SYRUP.
 2. Try unstaking again.
 
 If that still fails, you can perform an “emergencyWithdraw” from the contract directly to unstake your staked tokens.
 
-1. Go to: [https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
+1. Go to: [https://bscscan.com/address/0x906f3C68e57E4752f9d32E22aAB1DAB5eA074BbC#writeContract](https://bscscan.com/address/0x906f3C68e57E4752f9d32E22aAB1DAB5eA074BbC#writeContract)
 2. Click **“Connect to Web3”** and connect your wallet. ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 3. In section **“4. emergencyWithdraw”**, enter "0" and click “Write”.
 
-This will unstake your staked tokens and lose any uncollected CAKE yield.
+This will unstake your staked tokens and lose any uncollected BIT yield.
 
 {% hint style="warning" %}
 **This will lose any yield that you haven’t harvested yet.**
 {% endhint %}
 
-To stop this happening again, **don’t sell your SYRUP.** You still need it to unstake from the “Stake CAKE Earn CAKE” pool.
+To stop this happening again, **don’t sell your SYRUP.** You still need it to unstake from the “Stake BIT Earn BIT” pool.
 
-This error has happened because you have sold or transferred SYRUP tokens. SYRUP is minted in a 1:1 ratio to CAKE when you stake in the CAKE-CAKE Syrup Pool. SYRUP must be burned at a 1:1 ratio to CAKE when calling leaveStaking (unstaking your CAKE from the pool), so if you don't have enough, you can't unstake from the pool.
+This error has happened because you have sold or transferred SYRUP tokens. SYRUP is minted in a 1:1 ratio to BIT when you stake in the BIT-BIT Syrup Pool. SYRUP must be burned at a 1:1 ratio to BIT when calling leaveStaking (unstaking your BIT from the pool), so if you don't have enough, you can't unstake from the pool.
 
 {% embed url="https://dashboard.tenderly.co/tx/binance/0x754e18ceea82acac256b49c2b7a81260f7f86dd5e56ee2e3cc1b6ac864c29a8e" %}
 ![](https://lh4.googleusercontent.com/KchAcnM6cpX2BotEGppAxPAnY4Xbona6yI6ZWg9FlUUBfPi\_YO9ulM1s6htXJVXMzEwl0Uxcvdk8o4yhI7ar5g0TRpLVFjkS4YLKL7FS8Z4uFqeC37sw-TIkrPr7BCZQVpuD-5jO)
@@ -256,7 +251,6 @@ Try manually increasing the **gas limit** (not gas price!) in your wallet before
 
 A limit of 200000 is usually enough.
 
-![](<../.gitbook/assets/image (2).png>)
 
 The above example is from Metamask; check your wallet's documentation if you aren't sure how to adjust the gas limit.
 {% endtab %}
@@ -299,7 +293,7 @@ Firstly,[ let the team know](../contact-us/telegram.md) which pool you're trying
 You can perform an “emergencyWithdraw” from the contract directly to unstake your staked tokens.
 
 1. Find the contract address of the Syrup Pool you're trying to unstake from. You can find it in your wallet's transaction log.
-2. Go to [https://bscscan.com/](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) and in the search bar, enter the contract address.
+2. Go to [https://bscscan.com/](https://bscscan.com/address/0x906f3C68e57E4752f9d32E22aAB1DAB5eA074BbC#writeContract) and in the search bar, enter the contract address.
 3. Select **Write Contract.**
 4. Click **“Connect to Web3”** and connect your wallet.![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 5. In section **“3. emergencyWithdraw”,** and click “Write”.
@@ -331,7 +325,7 @@ This happens when you try to connect via a browser extension like MetaMask or Bi
 
 {% tabs %}
 {% tab title="Solution" %}
-Install the official browser extension to connect, or read our guide on [how to connect a wallet to PancakeSwap](https://docs.pancakeswap.finance/get-started/connection-guide).
+Install the official browser extension to connect, or read our guide on [how to connect a wallet to Bitexblock](https://docs.bitexblock.com/get-started/connection-guide).
 {% endtab %}
 {% endtabs %}
 
@@ -380,14 +374,14 @@ Cause unclear. Try these steps before trying again:
 
 ## **Issues with Profile**
 
-### Oops! We couldn't find any Pancake Collectibles in your wallet.
+### Oops! We couldn't find any Bitexblock Collectibles in your wallet.
 
 We're investigating the logic behind this issue. Meanwhile please try the workaround.
 
 {% tabs %}
 {% tab title="Workaround 1" %}
 1. Go to “Collectible” page, then come back to profile page.\
-   If you can’t find the link, go to [https://pancakeswap.finance/collectibles](https://pancakeswap.finance/collectibles) directly.
+   If you can’t find the link, go to [https://dex.bitexblock.com/collectibles](https://dex.bitexblock.com/collectibles) directly.
 2. Retry profile creation.
 {% endtab %}
 
@@ -412,7 +406,7 @@ There are two possible causes.
 {% tab title="Solution 1" %}
 Root cause: You have multiple wallets installed on the browser.\
 \
-It may make a conflict between wallets. This is out of PancakeSwap's control and we can do nothing.
+It may make a conflict between wallets. This is out of Bitexblock's control and we can do nothing.
 
 1. Have only single wallet installed on browser, remove the others.
 2. Reconnect the wallet and retry setting username again.

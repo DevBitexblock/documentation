@@ -1,26 +1,25 @@
-# CAKE Basics
+# BIT Basics
 
 \*\*\*\*
 
-![](../.gitbook/assets/group-501.png)
 
 \*\*\*\*
 
-**Token:** CAKE
+**Token:** BIT
 
-**Contract Address:** [https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82)
+**Contract Address:** [https://bscscan.com/token/0xd96bBEb6f32fE6C0BB11D6D33f7a5D1e6f7961BA](https://bscscan.com/token/0xd96bBEb6f32fE6C0BB11D6D33f7a5D1e6f7961BA)
 
 **Chain:** BNB Smart Chain \(BEP-20\)
 
 **Emission rate:**
 
-* **Reward per block -**  40 CAKE                                                                                                       _\*\*_
-* **Daily emission \(Based on 30k blocks per day\) -**  1,200,000 CAKE per day
+* **Reward per block -**  40 BIT                                                                                                       _\*\*_
+* **Daily emission \(Based on 30k blocks per day\) -**  1,200,000 BIT per day
 
 **Distribution:**
 
-* **Farmers -** 75% of the rewards per block \(30 CAKE\)
-* **SYRUP holders -** 25% of the rewards per block \(10 CAKE\)
-* **Farmers daily -** 900,000 CAKE \(based on 30k blocks per day\)
-* **SYRUP holders daily -** 300,000 CAKE \(based on 30k blocks per day\)
+* **Farmers -** 75% of the rewards per block \(30 BIT\)
+* **SYRUP holders -** 25% of the rewards per block \(10 BIT\)
+* **Farmers daily -** 900,000 BIT \(based on 30k blocks per day\)
+* **SYRUP holders daily -** 300,000 BIT \(based on 30k blocks per day\)
 

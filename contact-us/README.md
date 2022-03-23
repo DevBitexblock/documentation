@@ -1,6 +1,5 @@
 # Contact Us
 
-![](../.gitbook/assets/docs-masthead-20-.png)
 
 ####
 
@@ -18,7 +17,7 @@
 
 #### Help!
 
-### [Customer Support](customer-support.md#there-is-no-customer-support-for-pancakeswap)
+### [Customer Support](customer-support.md#there-is-no-customer-support-for-bitexblock)
 
 ### [Social Communities](telegram.md)
 

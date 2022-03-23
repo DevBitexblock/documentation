@@ -4,7 +4,6 @@ description: '"Don''t call it a roadmap"'
 
 # Roadmap
 
-![](<.gitbook/assets/docs-masthead-19- (1).png>)
 
 _Updated Jan. 21, 2022_
 
@@ -16,7 +15,6 @@ Pivoting is a way of life.
 
 That means that we don’t publicly commit to specific timelines, so we can organize our development priorities based on market changes and developer resources.
 
-![](.gitbook/assets/roadmap.png)
 
 {% hint style="info" %}
 Some items didn't make it into the "Coming Up" section due to security or confidential reason.
@@ -60,10 +58,10 @@ Some items didn't make it into the "Coming Up" section due to security or confid
 
 #### Earn
 
-* CAKE Staking
+* BIT Staking
 * Core Pools, Farms
-* Community Pools: Host BSC community project Pools, support with 0.1-0.2x CAKE farms
-* Auto-compounding CAKE-CAKE Syrup Pool
+* Community Pools: Host BSC community project Pools, support with 0.1-0.2x BIT farms
+* Auto-compounding BIT-BIT Syrup Pool
 * Syrup Pool Boosts
 * APR/APY Calculator v2
 * Harvest all function
@@ -78,12 +76,12 @@ Some items didn't make it into the "Coming Up" section due to security or confid
 * NFT Market Phase 1 & 2(buy & sell whitelisted NFT collections)
 * Customizable User Profile
 * NFT drops
-* Pancake Squad generative NFT collection
+* Bitexblock Squad generative NFT collection
 
-#### Site Upgrades / CAKE / Other Products
+#### Site Upgrades / BIT / Other Products
 
 * Mobile-first navigation & site overhaul
 * Analytics: Info site
 * Voting v2
-* IFO CAKE Pool & IFO 3.0
+* IFO BIT Pool & IFO 3.0
 

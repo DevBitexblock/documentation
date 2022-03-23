@@ -12,25 +12,20 @@ This method works by essentially overwriting the stuck transaction with another,
 
 1\. Open your MetaMask plugin.
 
-![](../.gitbook/assets/1-1-MetaMask\_plugin.png)
 
 
 
 2\. Click on the colorful circle icon on the top-right and click **Settings** from the dropdown menu.
 
-![](<../.gitbook/assets/1-2-MetaMask\_settings (1).png>)
 
 3\. In the Settings menu, select **Advanced**.
 
-![](../.gitbook/assets/1-3-MetaMask\_advanced.png)
 
 4\. Scroll down until you see **Advanced gas controls**. Toggle this to ON.
 
-![](../.gitbook/assets/1-4-MetaMask\_gas\_control\_on.png)
 
 5\. Still in Advanced settings, keep scrolling until you see **Customize transaction nonce**. Toggle this to ON.
 
-![](<../.gitbook/assets/1-4-MetaMask\_gas\_control\_on (1).png>)
 
 ### **2. Find Your Stuck Transaction**
 
@@ -38,7 +33,7 @@ We’re now going to find the transaction that’s stuck, and make a note of the
 
 ![](https://lh4.googleusercontent.com/xKBEnt5a62c5Wzg\_MCLIbVUWuL4fws1ohBAX9LAkGS71vslHk7QuMF24jAfkAdmsLunPVfT9c3FxCmGar5z7jNZnd4WMgzQsoxxbYw1Lp59Az5kG72COn0JblFXktHbmgMnF1LeY)
 
-6\. Go back to the top page of MetaMask. In the “Assets” tab, find the token type of your stuck transaction (in this case, CAKE).
+6\. Go back to the top page of MetaMask. In the “Assets” tab, find the token type of your stuck transaction (in this case, BIT).
 
 ![](https://lh5.googleusercontent.com/9qVjhK1kEKDL8l4TTdOFo4o547PDIIeQpCCY18gPyaUFJrpFbyYhMfBQ1CRzjjrllgrcqVbwkhxKCZBNlIad8J1yCpMVhsBKjIAcwfsQHQb7jnl2RD2ufQU-zNEn2Hn2g4LGvYDU)
 
@@ -52,11 +47,9 @@ We’re now going to find the transaction that’s stuck, and make a note of the
 
 Now we’re going to make a new transaction to replace the stuck one. We’ll customize the Nonce number, so that it’s the same as the one that you just wrote down.
 
-![](<../.gitbook/assets/image (9).png>)
 
 8\. Create a new transaction to replace your stuck transaction. This time around, increase the **Transaction Fee**. Here we’ve increased it from 9 to 20. This will make it more likely for  your transaction to be added to a block.
 
-![](<../.gitbook/assets/image (10).png>)
 
 9\. On the confirmation page, make sure your Gas Price is now at your new, higher amount.&#x20;
 
